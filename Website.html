@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hema Sumaswi Manchikalapudi- Personal Website</title>
+    <title>Hema Sumaswi Manchikalapudi - Personal Website</title>
     <link rel="stylesheet" href="website_styles.css" />
   </head>
 
@@ -27,20 +27,38 @@
         I am studying at SRM University AP in the Department of Computer Science
         and Engineering.
       </p>
-      <p>I like listening to music.</p>
+      <p>I like glass painting and swimming.</p>
     </section>
 
     <section id="interests">
       <h2>Interests and Hobbies</h2>
       <ul>
-        <li>Computing</li>
-        <li>Watching Movies</li>
-        <li>Swimming</li>
+        <li>Reading</li>
+        <li>Coding</li>
+        <li>Playing Football</li>
         <li>Listening to Music</li>
         <li>Cooking</li>
       </ul>
     </section>
 
+    <section id="feedback">
+      <h2>Feedback Form</h2>
+      <form id="feedbackForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Feedback:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit Feedback</button>
+      </form>
+    </section>
+
     <footer></footer>
+
+    <script src="feedback_form.js"></script>
   </body>
 </html>
